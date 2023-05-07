@@ -8,6 +8,6 @@ st.title('Table of images')
 for i in range(1,3): # number of rows in your table! = 2
     cols = st.beta_columns(3) # number of columns in each row! = 3
     # first column of the ith row
-    cols[0].image('row_%i_col_0.png' %i, use_column_width=True)
-    cols[1].image('row_%i_col_1.png' %i, use_column_width=True)
-    cols[2].image('row_%i_col_1.png' %i, use_column_width=True)
+    cols[0].image('./images/row_%i_col_0.png' %i, use_column_width=True)
+    cols[1].image('./images/row_%i_col_1.png' %i, use_column_width=True)
+    cols[2].image('./images/row_%i_col_1.png' %i, use_column_width=True)
