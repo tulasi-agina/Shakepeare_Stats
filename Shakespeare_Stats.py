@@ -10,6 +10,9 @@ nltk.download('punkt')
 import string
 nltk.download('stopwords')
 
+import streamlit as st
+st.video('https://www.youtube.com/shorts/RvHMOwi-ks4')
+
 # Create a dictionary (not a list)
 books = {" ":" ","A Mid Summer Night's Dream":"data/summer.txt","The Merchant of Venice":"data/merchant.txt","Romeo and Juliet":"data/romeo.txt"}
 
