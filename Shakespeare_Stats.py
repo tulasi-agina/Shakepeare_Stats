@@ -19,6 +19,7 @@ image = st.selectbox("Choose a text file", books.keys())
 ## Get the value
 image = books.get(image)
 tab1, tab2, tab3 = st.tabs(['Word Cloud', 'Bar Chart', 'View Text'])
+
 if image != " ":
     stop_words = []
     raw_text = open(image,"r").read().lower()
