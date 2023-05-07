@@ -41,7 +41,7 @@ if image != " ":
             word_frequencies = nltk.FreqDist(tokens)
 
             # Filter the words based on the minimum count specified in the sidebar
-            filtered_word_frequencies = {word: count for word, count in word_frequencies.items() if count >= min_countwords}
+            filtered_word_frequencies = {word: count for word, count in word_frequencies.items()}
 
             # Create a dataframe from the filtered word frequencies
             word_freq_df = pd.DataFrame(list(filtered_word_frequencies.items()), columns=['word', 'count'])
