@@ -1,12 +1,8 @@
 import numpy as np
 import streamlit as st
+import itertools
 
 st.title("Click on an image to navigate to the App")
-
- 
-n_rows = 2
-n_cols = 2
-
 
 from itertools import cycle
 
