@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.title('Shakespeare v Machine')
+st.title('Bard v Bot')
 
 # to get different images in the rows and columns, have a systematic way to label your images. For mine, I have used row_{i}_col_{j}
 
