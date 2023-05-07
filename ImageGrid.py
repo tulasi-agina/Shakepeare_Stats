@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.title('Table of images')
+st.title('Shakespeare v. Machine')
 
 # to get different images in the rows and columns, have a systematic way to label your images. For mine, I have used row_{i}_col_{j}
 
