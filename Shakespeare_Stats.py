@@ -34,9 +34,8 @@ if image != " ":
             tokens = [word for word in nltk.word_tokenize(raw_text) if word not in string.punctuation and not word.startswith("'")]
 
             # Remove stopwords from the tokens if the checkbox is unchecked
-            if remove_stop_words:
-                stop_words = set(nltk_stop_words)
-                tokens = [word for word in tokens if word.lower() not in stop_words]
+            stop_words = set(nltk_stop_words)
+            tokens = [word for word in tokens if word.lower() not in stop_words]
 
             # Calculate word frequencies
             word_frequencies = nltk.FreqDist(tokens)
