@@ -16,4 +16,4 @@ cols[2].image('images/row_1_col_2.png', caption='Sonnet Clouds', use_column_widt
 
 cols[0].image('images/row_2_col_0.png', caption='Infinite MonkRandom', use_column_width=True)
 cols[1].image('images/row_2_col_1.png', caption='Random Insults & Quotes', use_column_width=True)
-cols[2].image('images/row_2_col_2.png', caption='Text Summary', use_column_width=True)
+st.markdown("[![Foo](cols[2].image('images/row_2_col_2.png', caption='Text Summary', use_column_width=True)](http://google.com.au/)")
