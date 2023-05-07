@@ -28,7 +28,7 @@ if image != " ":
     stop_words = set(nltk_stop_words)
     tokens = nltk.word_tokenize(raw_text)
     
-     with tab2:
+    with tab2:
             st.subheader("Bar Chart")
             # Tokenization without punctuation and tokens starting with an apostrophe
             tokens = [word for word in nltk.word_tokenize(raw_text) if word not in string.punctuation and not word.startswith("'")]
