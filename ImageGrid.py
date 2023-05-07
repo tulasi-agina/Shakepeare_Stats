@@ -2,12 +2,18 @@ import streamlit as st
 
 st.title('Table of images')
 
-# to get different images in the rows and columns, have a systematic 
-# way to label your images. For mine, I have used row_{i}_col_0/1/2
+# to get different images in the rows and columns, have a systematic way to label your images. For mine, I have used row_{i}_col_{j}
 
-for i in range(0,3): # number of rows in your table! = 2
-    cols = st.beta_columns(3) # number of columns in each row! = 3
-    # first column of the ith row
-    cols[0].image('images/row_%i_col_0.png' %i, use_column_width=True)
-    cols[1].image('images/row_%i_col_1.png' %i, use_column_width=True)
-    cols[2].image('images/row_%i_col_2.png' %i, use_column_width=True)
+col1, col2, col3 = st.columns(3)
+
+cols[0].image('images/row_0_col_0.png' %i, use_column_width=True)
+cols[1].image('images/row_0_col_1.png' %i, use_column_width=True)
+cols[2].image('images/row_0_col_2.png' %i, use_column_width=True)
+
+cols[0].image('images/row_1_col_0.png' %i, use_column_width=True)
+cols[1].image('images/row_1_col_1.png' %i, use_column_width=True)
+cols[2].image('images/row_1_col_2.png' %i, use_column_width=True)
+
+cols[0].image('images/row_2_col_0.png' %i, use_column_width=True)
+cols[1].image('images/row_2_col_1.png' %i, use_column_width=True)
+cols[2].image('images/row_2_col_2.png' %i, use_column_width=True)
