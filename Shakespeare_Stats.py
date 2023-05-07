@@ -12,7 +12,7 @@ nltk.download('stopwords')
 
 st.video('https://www.youtu.be/RvHMOwi-ks4')
 
-st.markdown("[![Foo](http://www.google.com.au/images/nav_logo7.png)](http://google.com.au/)")
+st.markdown("[![Foo](https://upload.wikimedia.org/wikipedia/commons/f/fb/Cobbe_portrait_of_Shakespeare.jpg)](http://google.com.au/)")
 
 # Create a dictionary (not a list)
 books = {" ":" ","A Mid Summer Night's Dream":"data/summer.txt","The Merchant of Venice":"data/merchant.txt","Romeo and Juliet":"data/romeo.txt"}
